@@ -1,41 +1,41 @@
 ---
-title: Your first seed
+title: Tu primera semilla
 image: /assets/image.jpg
 ---
 
-### Welcome!
+### Bienvenidx
 
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
+Esta es tu primera nota. Podés encontrarla en el directorio [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) .
 
-### Link syntax
+### Sintaxis de enlaces
 
-To link to another note, you can use regular [Markdown syntax](https://www.markdownguide.org/getting-started/) for links, with a relative link to the other note, like this: [this is a link to a note about cats](/cats){: .internal-link}. Don't forget to use the `.internal-link` class to make sure the link is styled as an internal link.
+Para enlazar a otra nota, podés usar la [sintaxis Markdown](https://www.markdownguide.org/getting-started/) para enlaces, con un enlace relativo a la otra nota, como este: [este es un link a una nota sobre gatos](/cats){: .internal-link}. No te olvide de usar la clase `.internal-link` para asegurarte de que el enlace tiene el estilo de un enlace interno.
 
-Since the Web is all about HTML, you can always use plain HTML if you want, like this: <a class="internal-link" href="/cats">This is the same note about cats as above</a>.
+En la medida en que la Web está toda en HTML, siempre podés usar si querés HTML plano, así: <a class="internal-link" href="/cats">Esta es la misma nota sobre gatos de arriba</a>.
 
-Of course, you can also link to external websites, like this: [this is a link to Wikipedia](https://wikipedia.org/). Again, you can use plain HTML if you prefer.
+Por supuesto, también podés enlazar a páginas externas, como esta: [este es un link a Wikipedia](https://wikipedia.org/). De nuevo, si querés podés usar HTML plano.
 
-Additionally, you can use Roam/wiki-style link syntax by wrapping a note's title in double brackets, like this: [[A note about cats]]. If the Roam-style link does not point to a valid note's title, the double brackets will still be shown, like this: [[There is no note with this title]].
+Además, podés usar sintaxis de enlaces al estilo Roam/wiki, englobando (wrapping) el título de una nota con dobles corchetes, así: [[A note about cats]]. Si el enlace al estilo Roam no apunta a un título de nota válido, los dobles corchetes seguirán viéndose, así: [[No hay una nota con este título]].
 
-### Automatic bi-directional links
+### Enlaces bidireccionales automáticos
 
-Notice in the "Notes mentioning this note" section that there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.
+Fijate que en la sección "Notas que mencionan esta nota" hay otro enlace de nota a esta nota. Este es un enlace bidireccional, y estos son creados automáticamente cuando creás enlaces a otras notas.
 
-### Link previews
+### Previsualización de enlaces
 
-If you're on a device with mouse support, try hovering your mouse on internal links to preview the notes: [[A note about cats]]
+Si estás en un dispositivo con mouse, probá parar el puntero en los enlaces internos para previsualizar las notas: [[A note about cats]]
 
-### Images
+### Imágenes
 
-Finally, you can display images using Markdown syntax, like this:
+Finalmente, podés utilizar imagenes usando sintaxis Markdown, así:
 
 ![]({{page.image}})
 
-### Next steps
+### Pasos siguientes
 
-**If this template is useful to you in any way, consider [donating](https://github.com/sponsors/maximevaillancourt) to support my work**.
+**Si este template te es útil de algún modo, considerá [donar] a Maxime Vaillancourt(https://github.com/sponsors/maximevaillancourt) para apoyar su trabajo**.
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+Este template de jardín digital es gratuito, de código abierto y [disponible aquí en GitHub](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
 
 The easiest way to build your own digital garden based on this template is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll). If you need any help, my [DMs are open on Twitter (@vaillancourtmax)](https://twitter.com/vaillancourtmax). 👋
 
